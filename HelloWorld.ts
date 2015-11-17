@@ -1,12 +1,6 @@
-class Contact {
-
-
-}
-
-interface IContact {
-    name: string,
-    email: string,
-    phone: string
+interface Contact {
+    firstName: string,
+    lastName: string
 }
 
 function addToAddressBook(contact : Contact) {
@@ -15,3 +9,10 @@ function addToAddressBook(contact : Contact) {
 }
 
 var addressBook : Contact[] = [];
+
+var contact : Contact = {
+
+    firstName: "Akhil",
+    lastName: "Cherian"
+
+};
