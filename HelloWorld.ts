@@ -13,3 +13,5 @@ function addToAddressBook(contact : Contact) {
 
 
 }
+
+var addressBook : Contact[] = [];
