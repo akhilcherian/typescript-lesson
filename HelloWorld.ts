@@ -8,3 +8,8 @@ interface IContact {
     email: string,
     phone: string
 }
+
+function addToAddressBook(contact : Contact) {
+
+
+}
