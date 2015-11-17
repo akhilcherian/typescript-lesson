@@ -16,3 +16,5 @@ var contact : Contact = {
     lastName: "Cherian"
 
 };
+
+addressBook.push(contact);
